@@ -1,0 +1,38 @@
+img {
+    width: 272px;
+    height: 92;
+    padding-top: 200px;
+    vertical-align: center;
+}
+
+.btnI .btnII {
+    display: inline-block;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.img-container {
+    text-align: center;
+    display: block;
+}
+
+.search-container {
+    text-align: center;
+    /* display: block; */
+    padding-bottom: -50px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: -100px;
+    margin: -30px;
+}
+
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
