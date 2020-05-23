@@ -1,4 +1,6 @@
-
+body {
+    font-size: small;
+}
 
 img {
     width: 272px;
@@ -38,7 +40,7 @@ ul {
 .btnI .btnII {
     display: inline-block;
     text-align: center;
-    vertical-align: auto;
+    vertical-align: center;
 }
 
 
@@ -48,7 +50,7 @@ ul {
     /* display: block; */
     padding-bottom: -60px;
     padding-top: 40px;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
     
 }
 
@@ -68,7 +70,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgb(207, 204, 204);
+    background-color: rgb(241, 240, 240);
     border-left: none;
 }
 
