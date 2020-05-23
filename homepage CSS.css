@@ -1,9 +1,39 @@
+
+
 img {
     width: 272px;
     height: 92;
-    padding-top: 200px;
-    vertical-align: center;
+   
 }
+
+main {
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    max-width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-left: 0;
+      }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
 
 .btnI .btnII {
     display: inline-block;
@@ -11,39 +41,34 @@ img {
     vertical-align: auto;
 }
 
-.abtI {
-    position: absolute;
-    margin-left: 10px;
-    padding: 10px 0 0 10px;
-}
-
-.abtI > a {
-    padding: 5px;
-}
-
-.img-container {
-    text-align: center;
-    display: block;
-}
 
 .search-container {
+    max-width: 100%;
     text-align: center;
     /* display: block; */
-    padding-bottom: -50px;
+    padding-bottom: -60px;
     padding-top: 40px;
-    margin: auto;
+    margin-bottom: -20px;
+    
 }
 
-.button-container {
-    text-align: center;
-    padding-top: -100px;
-    margin: -30px;
+
+.button {
+    padding: 5px 20px 10px 20px;
 }
 
 #searchBar {
-    width: 60%;
-    padding: 10px;
+    width: 550px;
+    padding: 12px;
     border-radius: 30px;
-    border-style: solid 1px;
+    border-style: solid 1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(207, 204, 204);
+    border-left: none;
 }
 
